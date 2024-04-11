@@ -7,9 +7,12 @@
 // 999  --> "999"
 // -100 --> "-100"
 
-//My solution 
-class Kata {
-  public static String numberToString(int num) {
-    return String.valueOf(num);
-  }
+//My solution
+function numberToString(num) {
+  return num + "";
+}
+
+//best practice
+function numberToString(num) {
+  return num.toString();
 }
