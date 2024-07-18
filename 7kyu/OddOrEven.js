@@ -16,6 +16,9 @@
 // Output: "even"
 // Have fun!
 
+// my solution
 function oddOrEven(array) {
-  //enter code here
+  return array.reduce((acc, curr) => acc + curr, 0) % 2 ? 'odd' : 'even';
 }
+
+('apparently my solution is gooddd ~ ');
